@@ -1,4 +1,4 @@
-import "./pg-core/columns.ts";
+import "https://esm.sh/drizzle-orm@0.23.8/pg-core/columns/array";
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/alias";
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/checks";
 export * from "./pg-core/columns.ts";
