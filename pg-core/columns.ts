@@ -1,7 +1,7 @@
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/columns/array";
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/columns/bigint";
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/columns/bigserial";
-export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/columns/boolean";
+export * from "./columns/boolean.ts";
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/columns/char";
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/columns/cidr";
 export { PgColumn } from "https://esm.sh/drizzle-orm@0.23.8/pg-core/columns/common";
