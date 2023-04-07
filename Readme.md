@@ -13,16 +13,16 @@ that you need to import the library as shown below.
 ```ts
 import { eq } from "drizzle-orm/expression";
 // Maps to
-import { eq } from "https://deno.land/x/drizzle-orm/expression.ts";
+import { eq } from "https://deno.land/x/drizzle/expression.ts";
 ```
 
 ## Example
     
 ```ts
-import { eq } from 'https://deno.land/x/drizzle-orm/expressions.ts';
-import postgres, { drizzle } from 'https://deno.land/x/drizzle-orm/postgres.ts';
-import { integer, pgTable, serial, text, timestamp, varchar, sql } from 'https://deno.land/x/drizzle-orm/pg-core.ts';
-import { InferModel } from 'https://deno.land/x/drizzle-orm/mod.ts';
+import { eq } from 'https://deno.land/x/drizzle/expressions.ts';
+import postgres, { drizzle } from 'https://deno.land/x/drizzle/postgres.ts';
+import { integer, pgTable, serial, text, timestamp, varchar, sql } from 'https://deno.land/x/drizzle/pg-core.ts';
+import { InferModel } from 'https://deno.land/x/drizzle/mod.ts';
 
 export const users = pgTable('users', {
   id: serial('id').primaryKey(),
@@ -98,9 +98,9 @@ const deletedNames /* : { name: string }[] */ = await db.delete(users)
 ```
 
 ## Supported Mappings
-- `drizzle-orm` => https://deno.land/x/drizzle-orm/mod.ts
-- `drizzle-orm/pg-core` => https://deno.land/x/drizzle-orm/pg-core.ts
-- `drizzle-orm/postgres-js` => https://deno.land/x/drizzle-orm/postgres.ts
+- `drizzle-orm` => https://deno.land/x/drizzle/mod.ts
+- `drizzle-orm/pg-core` => https://deno.land/x/drizzle/pg-core.ts
+- `drizzle-orm/postgres-js` => https://deno.land/x/drizzle/postgres.ts
     - It also exports postgres client from [postgres-js](https://deno.land/x/postgresjs) as `postgres` and default export.
-- `drizzle-orm/expressions` => https://deno.land/x/drizzle-orm/expressions.ts
-- `drizzle-orm/sql` => https://deno.land/x/drizzle-orm/sql.ts
+- `drizzle-orm/expressions` => https://deno.land/x/drizzle/expressions.ts
+- `drizzle-orm/sql` => https://deno.land/x/drizzle/sql.ts
