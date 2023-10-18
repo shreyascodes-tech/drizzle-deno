@@ -12,5 +12,6 @@ export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/schema";
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/session";
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/subquery";
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/table";
+export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/unique-constraint.ts";
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/utils";
 export * from "https://esm.sh/drizzle-orm@0.23.8/pg-core/view";
